@@ -12,5 +12,6 @@ namespace WebApiAutores
         }
         //creaer una tabla apartir del esquema de las propiedades de autores
         public DbSet<Autor> Autores{ get; set; }
+        public DbSet<Libro> Libros { get; set; }    
     }
 }
